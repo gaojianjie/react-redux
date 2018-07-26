@@ -18,6 +18,7 @@ export default class PublicHeader extends Component{
   
   // 切换左侧导航栏状态
   toggleNav = () => {
+    console.log(this.state.navState,'现在是在测试');
     this.setState({navState: !this.state.navState});
   }
   // css动画组件设置为目标组件

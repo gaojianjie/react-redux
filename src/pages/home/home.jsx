@@ -92,6 +92,7 @@ class Home extends Component {
   
   // 关闭弹款
   closeAlert = () => {
+    console.log('现在是在测试弹框关闭')
     this.setState({
       alertStatus: false,
       alertTip: '',
